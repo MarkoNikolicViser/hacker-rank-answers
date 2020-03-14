@@ -15,7 +15,7 @@ class Solution {
             var nextLetter = Console.Read();
             var lastLetter = nextLetter;
 
-            nextChar = Console.Read();
+            nextLetter = Console.Read();
 
             //special handling for hacker rank execution environment. 10 is ascii code of line              feed '\n'.
             //Hacker rank uses '\n' character for end of a test case and -1 for end of file                 which marks the end of last test case.
